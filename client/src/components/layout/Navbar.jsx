@@ -2,10 +2,6 @@ import React from "react";
 import { Link, useMatch } from "react-router-dom"; 
 import {assets} from '../../assets/assets'
 import {
-  SignedIn,
-  SignedOut,
-  SignInButton,
-  SignUpButton,
   useClerk,
   UserButton,
   useUser,
@@ -20,7 +16,7 @@ const Navbar = ({ children }) => {
   const [open, setOpen] = React.useState(false);
   // console.log(children);
   return (
-    <nav className={`flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 border-b border-gray-300 relative transition-all ${isCourseListPage ? "bg-white" : " bg-cyan-100/70"}`}>
+    <nav className={`flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 border-b border-gray-300 relative transition-all ${isCourseListPage ? "bg-white" : " bg-blue-300/50"}`}>
       {/* Logo */}
       <Link to="/">
         {/* غيرت لـ Link لو internal */}

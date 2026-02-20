@@ -133,7 +133,7 @@ function CourseDetails() {
   return (
     <>
       <div className="relative md:py-36 md:px-36 px-8 md:pt-30 pt-20 ">
-        <div className="absolute top-0 left-0 w-full h-2/5 -z-1 bg-linear-to-b from-cyan-100/70"></div>
+        <div className="absolute top-0 left-0 w-full h-2/5 -z-1 bg-linear-to-b from-blue-300/50"></div>
         <div>
           <button
             onClick={() => navigate("/course-list")}
